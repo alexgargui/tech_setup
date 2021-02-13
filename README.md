@@ -47,8 +47,6 @@ But also you can change and do easier to use our terminal, this is using and cha
   alias release_start='git flow release start'
   alias hotfix_start='git flow hotfix start'
   alias hotfix_finish='git flow hotfix finish'
-  alias gpd="git pull origin develop"
-  alias gpm="git pull origin master"
 
   # You can use take NAME_FOLDER then this method create and move to this new folder
   function take() {
