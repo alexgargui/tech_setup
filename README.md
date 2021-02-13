@@ -22,7 +22,6 @@ If you already install these 2 tools, we continue with the personalization, you 
 - Open iTerm2
 - Go to Preferences>General>Closing and disabled all the options, this is remove the verification when you closed the terminal with more than one pestaña.
 - Also in Preferences you can go to Profiles option and create new one, after that set the new profile as default.
-- In this profile in general option, you can select Reuse previous session's directory to allow the terminal always open in the last route than you use iterm.
 - Now you need to download this theme: <https://ethanschoonover.com/solarized>/ and import in the options colors inside your profile. And select the theme in the options, this set a customized UI for iTerm.
 - And after that you can see a little bit different term.
 
