@@ -32,7 +32,7 @@ But also you can change and do easier to use our terminal, this is using and cha
   autoload -U colors promptinit && colors
 
   #This personalized the prompt of our terminal
-  PROMPT='$fg[blue]%1~$reset_color $(git_prompt_info)$fg[yellow]> $reset_color'
+  PROMPT='%F{blue}%1~%f $(git_prompt_info)%F{yellow}>%f ' 
 
   # Alias to work with git and git flow, this help a lot to abbreviate some commands
   alias ga='git add'
