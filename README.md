@@ -36,7 +36,7 @@ But also you can change and do easier to use our terminal, this is using and cha
 
   # Alias to work with git and git flow, this help a lot to abbreviate some commands
   alias ga='git add'
-  alias gc='git commit -m'
+  alias gc='git commit'
   alias gst='git status'
   alias gr='git rebase'
   alias gch='git checkout'
@@ -76,3 +76,47 @@ But also you can change and do easier to use our terminal, this is using and cha
   ZSH_THEME_GIT_PROMPT_SHA_BEFORE="%{$fg[white]%}[%{$fg[yellow]%}"
   ZSH_THEME_GIT_PROMPT_SHA_AFTER="%{$fg[white]%}]"
 ```
+
+If you see the aliases in some of them we use git flow, for those aliases to work you first need to install hoombrew and then git flow, you can see how to install hombrew here: https://brew.sh/index_es, after you installed homebrew you can install git flow by pasting the next line of code on your terminal:
+
+```shell
+brew install git-flow
+```
+
+## 1.3 VS Code Extensions
+
+For this tech setup we use the popular text editor VS Code, this is my favorite editor to work, I think it is the best in the market rigth now, but obviously it is a preference, if you are able to try VS Code the following extensions will help you to work better in some technologies. To get started, you need to install VS Code. You can see how install it here: https://code.visualstudio.com/download
+
+When VS Code is already installed, you need to go to the left bar and click on the extensions button, and in the search field look for Settings Sync, once it appears, click it and now you will see an install button, now proceed to install it by clicking that button. Once Settings Sync is already installed, inside VS Code you will see  a new opened tab where you can see something related to Setting Sync. In this new tab you will see a link that says: "Download Public Gist", you can click on that link and it will open an input field, in that input field you need to paste the following id: 705031a080ec8d17a8ae37a83587a826 and then press the enter key. After that, some things will start downloading on your computer, the following extensions will be installed:
+
+- Auto Close Tag: This helps you to close every html tag automatically.
+
+- Bracket Pair Colorizer: This helps you to easily see where a bracket closes.
+
+- C/C++: This is an extension to work with C/C++, but if you don't work with that language, you can uninstall that extension.
+
+- Color highlight: With this extension you can see the color of any hex value.
+
+- Community Material Theme: This helps to VS Code look better that's my favourite but you can find other different themes that you like.
+
+- env-cmd-file-syntax: This only helps to make the .env files look beautiful.
+
+- ES7 React/Redux/GraphQl Snippets: You can write some react code with only a few steps, it helps with repeated code.
+
+- ES Lint: I think this is one of the most useful tools because it helps us to mantain a cleaner code. We use the airbnb convention for JS.
+
+- GitLens: This tool shows you who wrote some code.
+
+- Import Cost: This tool shows you the size of imports in JS.
+
+- Markdown Shortcuts, Markdown Theme Kit and markdownlint: This 3 tools are useful if you use markdown to write documentation.
+
+- Prettier: This corrects some code to mantain a code with a base of conventions.
+
+- Ruby, Ruby on Rails and VSCode Ruby: These 3 tools help you when you are working with the Ruby language.
+
+- Trailing spaces: This extension shows all the unnecessary spaces in your code.
+
+- Settings Sync: This is for saving your VS Code config in your Github Gists and share it with other people.
+
+I use all those extensions in my day to day as a Developer, some of them probably won't be useful for you but other sure will be. Also, note that the description for each extensions is very brief so if you want you can look them up on Google and learn how to use them.
