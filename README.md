@@ -1,38 +1,38 @@
 # 1. Tech Setup
 
-This is how I set my computer to code
+This is how I set up my computer to code
 
 ## 1.1. Considerations
 
 - This example is in Mac probably if you use other system change some stuff.
-- External install I only share you the links to understand how install it, I don't explaing how to install each one in this post.
+- For external installs I only share you the links to understand how install it, I don't explaing how to install each one in this post.
 
 ---
 
 ## 1.2. Customize a Term
 
-First of all I liked to set a good terminal with a some relevant things, like branch of git and also personalized a little bit.
+First of all, I wanted to set a good terminal with a some relevant things, like the current git's branch and, also customize it a little bit deeper.
 
-For this case I use iTerm2, you can find how download here: <https://iterm2.com/>
+For this case I use iTerm2, you can find how to download it here: <https://iterm2.com/>
 
-After that you need to install oh-my-zsh this is how I manage the iTerm personalization, you can find how to download here: <https://ohmyz.sh/>
+After that you need to install oh-my-zsh this is how I manage the iTerm personalization, you can find how to download it here: <https://ohmyz.sh/>
 
 If you already install these 2 tools, we continue with the personalization, you need to follow next steps:
 
 - Open iTerm2
-- Go to Preferences>General>Closing and disabled all the options, this is remove the verification when you closed the terminal with more than one pestaña.
-- Also in Preferences you can go to Profiles option and create new one, after that set the new profile as default.
-- Now you need to download this theme: <https://ethanschoonover.com/solarized>/ and import in the options colors inside your profile. And select the theme in the options, this set a customized UI for iTerm.
-- And after that you can see a little bit different term.
+- Go to Preferences>General>Closing and disable all the options, this will remove the verification when you close the terminal while having more than one tab.
+- Also, in Preferences you can go to Profiles option and create a new one, after that set the new profile as default.
+- Now you need to download this theme: <https://ethanschoonover.com/solarized>/ and import it in the colors option inside your profile. Now select the theme in the options, this will set a customized UI for iTerm.
+- Aftor you make all the previous changes you will see a little bit different term.
 
-But also you can change and do easier to use our terminal, this is using and change the .zshrc file to set some help commands or personalized colors when used Git. I share you my aggregation to .zshrc file and explain why is each line.
+But also you can change and do easier to use our terminal, this is using and change the .zshrc file to set some help commands or personalized colors when using Git. I share with you what I added to my .zshrc file and explain what each line/block does.
 
 ```shell
   #This line upload the colors to use in the next lines
   autoload -U colors promptinit && colors
 
   #This personalized the prompt of our terminal
-  PROMPT='$fg[blue]%1~$reset_color $(git_prompt_info)$fg[yellow]> $reset_color'
+  PROMPT='%F{blue}%1~%f $(git_prompt_info)%F{yellow}>%f ' 
 
   # Alias to work with git and git flow, this help a lot to abbreviate some commands
   alias ga='git add'
